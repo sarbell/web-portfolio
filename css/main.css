@@ -13088,7 +13088,7 @@ footer .logo-footer {
           transform: skewY(4deg);
 }
 
-.overlay {
+.overlay-projs {
   background-color: rgba(215, 217, 220, 0.3);
   -webkit-transform: skewY(-4deg);
           transform: skewY(-4deg);
