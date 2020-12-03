@@ -12716,6 +12716,26 @@ footer .logo-footer {
   }
 }
 
+@media screen and (max-width: 400px) {
+  #technical .skill {
+    font-size: 2rem;
+  }
+  #technical .skill-text {
+    font-size: .7rem;
+    font-weight: 300;
+  }
+}
+
+@media screen and (max-width: 330px) {
+  #technical .skill {
+    font-size: 2rem;
+  }
+  #technical .skill-text {
+    font-size: .5rem;
+    font-weight: 300;
+  }
+}
+
 #values h4.card-title {
   font-family: "Roboto", Helvetica, Verdana;
   font-size: 1.2rem;
@@ -13010,7 +13030,10 @@ footer .logo-footer {
   }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 576px) {
+  #funFacts .box {
+    text-align: right;
+  }
   #funFacts .divider-2 {
     display: none;
   }
@@ -13250,11 +13273,11 @@ h6 {
 }
 
 .fa-chevron-circle-left {
-  padding-right: 6rem;
+  margin-right: 6rem;
 }
 
 .fa-chevron-circle-right {
-  padding-left: 6rem;
+  margin-left: 6rem;
 }
 
 @media screen and (max-width: 575px) {
@@ -13274,12 +13297,12 @@ h6 {
     font-size: 2rem;
   }
   .carousel {
-    width: 95%;
+    width: 90%;
     padding-right: 1rem;
-    padding-left: 3rem;
+    margin-left: 3rem;
   }
   .fa-chevron-circle-left {
-    padding-right: 1rem;
+    margin-right: 5rem;
   }
 }
 
@@ -13303,19 +13326,40 @@ h6 {
     font-size: 1.5rem;
   }
   .carousel {
-    width: 100%;
-    padding-right: 1rem;
-    padding-left: 3rem;
+    width: 90%;
+    padding-right: 0rem;
+    margin-left: 0rem;
   }
   .fa-chevron-circle-left {
-    padding-right: 1rem;
+    margin-right: 0rem;
+  }
+  .fa-chevron-circle-right {
+    margin-right: 0rem;
   }
   .carousel-inner > img {
     display: none;
   }
+  .carousel-inner {
+    width: 120% !important;
+  }
   .carousel-item > img {
-    width: 100% !important;
-    padding-bottom: 1.2rem;
+    padding-bottom: 2rem;
+  }
+}
+
+@media screen and (max-width: 340px) {
+  .carousel {
+    width: 100%;
+    padding-right: 0rem;
+    margin-left: 0rem;
+  }
+  .fa-chevron-circle-right {
+    margin-right: 2.5rem;
+  }
+  .carousel-inner {
+    padding-right: 1rem;
+    margin-left: 0rem;
+    width: 120% !important;
   }
 }
 
